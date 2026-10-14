@@ -1,0 +1,19 @@
+{
+  "name": "vertex-labs-backend",
+  "version": "1.0.0",
+  "description": "Express + MySQL backend for Vertex Labs site: contact form, FAQ, portfolio, AI chatbot, PDF Q&A",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.10.0",
+    "pdf-parse": "^1.1.1"
+  }
+}
